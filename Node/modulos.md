@@ -28,4 +28,4 @@ var = require("./diretorio") // Que sera recebido pela variável
 console.log(soma(5, 2));
 ```
 
-*7*
+*resultado: 7*
