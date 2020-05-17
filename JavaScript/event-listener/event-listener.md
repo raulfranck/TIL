@@ -2,6 +2,8 @@
 
 Dado o seguinte formulário em HTML:
 
+``
+
   <form action="cadastro.php"> 
     <label> 
       Informe Seu nome: 
@@ -13,7 +15,7 @@ Dado o seguinte formulário em HTML:
       <span id="nameLength">
       </span> 
   </form>
-
+``
 Onde, quero que cada tecla digitada no input do tipo "text" apareça no contador a quantidade de teclas digitadas.
 
 No java Sript fica assim:
