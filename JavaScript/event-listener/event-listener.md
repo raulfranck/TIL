@@ -2,20 +2,20 @@
 
 Dado o seguinte formulário em HTML:
 
-``
-
-  <form action="cadastro.php"> 
-    <label> 
-      Informe Seu nome: 
-      <input type="text" id="nameInput" /> 
-      <input type="submit" value="Registrar" /> 
-    </label> 
-    <br /> 
-    <br /> 
+```
+  <form action="cadastro.php">
+    <label>
+      Informe Seu nome:
+      <input type="text" id="nameInput" />
+      <input type="submit" value="Registrar" />
+    </label>
+    <br />
+    <br />
       <span id="nameLength">
-      </span> 
+      </span>
   </form>
-``
+```
+
 Onde, quero que cada tecla digitada no input do tipo "text" apareça no contador a quantidade de teclas digitadas.
 
 No java Sript fica assim:
