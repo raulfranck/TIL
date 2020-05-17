@@ -53,3 +53,10 @@ let ultimo = arrayUsuario.pop()
 
 console.log(arrayUsuario)
 ```
+
+```
+let vazio = [] // Cria  um array vazio
+
+vazio.push(1,2,3); // Adiciona valores ao array vazio
+vazio.reverse(); // Inverte a posição dos objetos dentro do array
+```
