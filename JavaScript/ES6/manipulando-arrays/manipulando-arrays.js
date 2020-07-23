@@ -69,7 +69,7 @@ function doFind() {
   console.log(found);
 }
 
-// Some ( verifica se há ou não, retonr true or false )
+// Some ( verifica se há ou não, retorna true or false )
 
 function doSome() {
   const found = people.results.some((person) => {
