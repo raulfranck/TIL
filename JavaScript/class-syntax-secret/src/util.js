@@ -9,7 +9,8 @@ class Util {
     }
 
     static unFormatCurrency(value) {
-        const values = Number(value.replace('', ''))
+        const values = Number(value.replace(/\D/g, '')) / 100
+        return values
     }
     
 }
